@@ -7,11 +7,11 @@ const About = () => {
                 ABOUT ME
             </h1>
             <p className='text-xl font-semibold'>
-                I am a front-end developer based in ibadan,Nigeria.
+                I am a front-end developer based in Ibadan,Nigeria.
             </p>
             <p className='text-[var(--color-tertiary)]'>
                 Specialize in JavaScript, React, and Tailwind CSS, and I enjoy turning ideas into responsive, user-friendly websites.
-                Geology graduate evolving into a software developer passionate about innovation.
+                Evolving software developer passionate about innovation.
                 Currently looking for opportunities to grow as a developer by collaborating on impactful projects.
                 When I am not coding, you will find me reading tech blogs, exploring new tools, or sketching design ideas.
             </p>
@@ -61,7 +61,7 @@ const About = () => {
                 <h1 className='text-4xl font-semibold'>MY EDUCATION</h1>
 
                 <div className='text-[var(--color-tertiary)]'>
-                    <p>Geology and Mineral Science</p>
+                    <p>B.Sc Geology and Mineral Science</p>
                     <p className='font-semibold text-[var(--color-extra)]'>University of Ilorin</p>
                     <p>2018 -2024</p>
                 </div>
