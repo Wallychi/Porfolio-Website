@@ -14,15 +14,15 @@ const Home = () => {
                     </div>
                 </div>
                 <div className='bg-[var(--color-buttonbg)] p-2 rounded-full'>
-                    <a href='https://www.linkedin.com/in/adejarewaliyullahi' target='_blank'><img className='w-7' src='public/Icons/linkedin.png' alt='LinkedIn-icon' /></a>
+                    <a href='https://www.linkedin.com/in/adejarewaliyullahi' target='_blank'><img className='w-7' src='/Icons/linkedin.png' alt='LinkedIn-icon' /></a>
                 </div>
 
                 <div className='bg-[var(--color-buttonbg)] p-2 rounded-full'>
-                    <img className='w-7' src='public/Icons/instagram.png' alt='LinkedIn-icon' />
+                    <img className='w-7' src='/Icons/instagram.png' alt='LinkedIn-icon' />
                 </div>
                 
                 <div className='bg-[var(--color-buttonbg)] p-2 rounded-full'>
-                    <img className='w-7' src='public/Icons/whatsapp.png' alt='LinkedIn-icon' />
+                    <img className='w-7' src='/Icons/whatsapp.png' alt='LinkedIn-icon' />
                 </div>
             </div>
     </section>
