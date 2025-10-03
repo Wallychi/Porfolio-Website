@@ -9,10 +9,10 @@ const Contact = () => {
             </div>
 
             <form className='flex flex-col gap-5'>
-                <input type='text' placeholder='Name' className='text-[var(--color-secondary)] bg-[var(--color-buttonbg)] px-4 w-full py-2 rounded-lg' />
-                <input type='email' placeholder='Email' className='bg-[var(--color-buttonbg)] px-4 w-full py-2 rounded-lg' />
-                <input type='text' placeholder='Subject' className='bg-[var(--color-buttonbg)] px-4 w-full py-2 rounded-lg' />
-                <textarea placeholder='Message' className='bg-[var(--color-buttonbg)] px-4 w-full h-50 py-2 rounded-lg'></textarea>
+                <input type='text' placeholder='Name' className='focus:outline-0 text-[var(--color-secondary)] bg-[var(--color-buttonbg)] px-4 w-full py-2 rounded-lg' required />
+                <input type='email' placeholder='Email' className='focus:outline-0 bg-[var(--color-buttonbg)] px-4 w-full py-2 rounded-lg' required />
+                <input type='text' placeholder='Subject' className='focus:outline-0 bg-[var(--color-buttonbg)] px-4 w-full py-2 rounded-lg' required />
+                <textarea placeholder='Message' className='focus:outline-0 bg-[var(--color-buttonbg)] px-4 w-full h-50 py-2 rounded-lg' required />
                 <button type='submit' className='bg-[var(--color-extra)] w-1/3 py-3 rounded-full text-[var(--color-primary)] font-semibold text-xl'>SUBMIT</button>
             </form>
         </section>
