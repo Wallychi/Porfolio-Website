@@ -2,7 +2,7 @@ import { BriefcaseBusiness, Contact, House, Menu, Moon, PanelsTopLeft, Sun } fro
 import React, { useState } from 'react'
 
 const Navbar = () => {
-  const [toogle, setToogle] = useState(true)
+  // const [toogle, setToogle] = useState(true)
   const [menuState, setMenuState] = useState(false)
   return (
     <section className='flex w-full px-5 py-3 items-center justify-between text-[var(--color-tertiary)]'>
@@ -16,7 +16,7 @@ const Navbar = () => {
           <a href='#contact' onClick={()=>{setMenuState(false)}}><nav className='flex gap-3 items-center'><Contact strokeWidth={2.5} /> CONTACT</nav></a>
         </div>
           : ""}
-        <div className='border-1 border-[var(--color-tertiary)] rounded-full p-1'>
+        {/* <div className='border-1 border-[var(--color-tertiary)] rounded-full p-1'>
           {toogle ? <Sun onClick={() => {
             setToogle(false); document.documentElement.style.setProperty(
               "--color-primary",
@@ -36,7 +36,7 @@ const Navbar = () => {
               "white"
             );
           }} size={25} strokeWidth={2.5} />}
-        </div>
+        </div> */}
       </div>
     </section>
   )
