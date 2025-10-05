@@ -47,7 +47,7 @@ const Home = () => {
               <img
                 className="w-7 lg:w-10"
                 src="/Icons/phone.png"
-                alt="LinkedIn-icon"
+                alt="Phone-icon"
               />
             </a>
           </div>
@@ -69,7 +69,7 @@ const Home = () => {
             <img
               className="w-7 "
               src="/Icons/instagram.png"
-              alt="LinkedIn-icon"
+              alt="Instagram-icon"
             />
           </div>
 
