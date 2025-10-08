@@ -4,6 +4,7 @@ import Home from './components/Home'
 import About from './components/About'
 import Contact from './components/Contact'
 import { Analytics } from '@vercel/analytics/react'
+import Projects from './components/Projects'
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       </div>
       <Home />
       <About />
+      <Projects />
       <Contact />
       <Analytics />
     </section>

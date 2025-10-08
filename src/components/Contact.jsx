@@ -6,7 +6,7 @@ const Contact = () => {
             <div className='flex flex-col gap-5 lg:gap-6 lg:basis-1/2'>
                 <h1 className='text-4xl lg:text-5xl font-serif font-bold'>LET'S CONNECT</h1>
                 <div>
-                    <p>For more info, here's my <a href="Documents/Waliyullahi CV.pdf" download target="_blank" rel="noopener noreferrer" className=' px-2 py-1 rounded-md bg-[var(--color-buttonbg)] font-bold'>resume</a></p>
+                    <p>For more info, here's my <a href="Documents/Waliyullahi CV.pdf" download target="_blank" rel="noopener noreferrer" className=' px-2 py-1 rounded-md bg-[var(--color-extra)] text-[var(--color-primary)] font-bold'>resume</a></p>
                 </div>
 
                 <div className='hidden lg:flex lg:items-center lg:gap-5 '>

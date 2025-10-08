@@ -2,7 +2,7 @@ import { BriefcaseBusiness, Contact, House, Menu, Moon, PanelsTopLeft, Sun } fro
 import React, { useState } from 'react'
 
 const Navbar = () => {
-  // const [toogle, setToogle] = useState(true)
+  const [toogle, setToogle] = useState(true)
   const [menuState, setMenuState] = useState(false)
   return (
     <section className='flex w-full px-5 lg:px-15 py-3 items-center justify-between text-[var(--color-tertiary)]'>
@@ -12,7 +12,7 @@ const Navbar = () => {
         {menuState ? <div onClick={() => { setMenuState(!menuState) }} className='flex italic absolute top-15 right-0 flex-col w-full text-2xl gap-3 h-screen items-center justify-center bg-[var(--color-primary)] text-[var(--color-secondary)]'>
           <a href='#home' onClick={() => { setMenuState(false) }}><nav className='flex gap-3 items-center'><House strokeWidth={2.5} /> HOME</nav></a>
           <a href='#about' onClick={() => { setMenuState(false) }}><nav className='flex gap-3 items-center'><PanelsTopLeft strokeWidth={2.5} /> ABOUT</nav></a>
-          <a href='#project' onClick={() => { setMenuState(false) }}><nav className='flex gap-3 items-center'><BriefcaseBusiness strokeWidth={2.5} /> PROJECTS</nav></a>
+          <a href='#projects' onClick={() => { setMenuState(false) }}><nav className='flex gap-3 items-center'><BriefcaseBusiness strokeWidth={2.5} /> PROJECTS</nav></a>
           <a href='#contact' onClick={() => { setMenuState(false) }}><nav className='flex gap-3 items-center'><Contact strokeWidth={2.5} /> CONTACT</nav></a>
         </div>
           : ""}
