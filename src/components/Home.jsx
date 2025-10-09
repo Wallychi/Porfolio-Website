@@ -66,11 +66,13 @@ const Home = () => {
           </div>
 
           <div className="bg-[var(--color-buttonbg)] p-2 rounded-full">
-            <img
+            <a href="https://github.com/Wallychi" target="_blank">
+              <img
               className="w-7 "
-              src="/Icons/instagram.png"
-              alt="Instagram-icon"
+              src="/Icons/github.png"
+              alt="Github-icon"
             />
+            </a>
           </div>
 
           <div className="bg-[var(--color-buttonbg)] p-2 rounded-full lg:hidden">
