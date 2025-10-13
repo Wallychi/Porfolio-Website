@@ -19,7 +19,7 @@ const Navbar = () => {
 
           <div className='hidden lg:flex gap-10 items-center text-xl font-semibold'>
             <a className='hover:text-[var(--color-extra)]' href='#about'>About</a>
-            <a className='hover:text-[var(--color-extra)]' href='#work'>Work</a>
+            <a className='hover:text-[var(--color-extra)]' href='#projects'>Work</a>
             <a className='hover:text-[var(--color-extra)]' href='#contact'>Contact</a>
           </div>
 
