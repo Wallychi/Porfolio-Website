@@ -11,8 +11,8 @@ const Projects = () => {
                         <img src='/Images/techty-landing-page.png' alt='Techty Landing Page' className='rounded-t-xl lg:rounded-xl' />
                     </div>
                     <div className='flex flex-col justify-end gap-3 px-3 lg:basis-1/2'>
-                        <h2 className='text-2xl lg:text-4xl font-semibold'>Techty Site</h2>
-                        <p className='text-[var(--color-tertiary)]'>A site built purely for the practice of React. It is responsive for mobile, tablets and laptop. React, TailwindCSS were used.</p>
+                        <h2 className='text-2xl lg:text-4xl font-semibold'>Techty</h2>
+                        <p className='text-[var(--color-tertiary)]'>Developed using React and Vite for optimized performance and fast builds. Styled with Tailwind CSS to ensure a scalable and maintainable design system. The project is fully responsive, offering consistent rendering across various screen sizes, and emphasizes a clean User Interface with user-centric User Experience principles for seamless interaction.</p>
                         <div className='flex items-center gap-5 text-[var(--color-extra)] font-semibold'>
                             <a href='https://techty-seven.vercel.app/' target='_blank' className='pb-1 border-b-1 border-[var(--color-extra)]'>View Site</a>
                             <a href='https://github.com/Wallychi/techty' target='_blank' className='pb-1 border-b-1 border-[var(--color-extra)]'>View Code</a>
