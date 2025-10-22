@@ -5,7 +5,7 @@ const Contact = () => {
     const [state, handleSubmit] = useForm("mdkwrljw");
 
     if (state.succeeded) {
-        return <p>Thanks for joining!</p>;
+        return <p className='text-[var(--color-extra)] text-xl text-centre'>Thanks for joining!</p>;
     }
     return (
         <section id='contact' className='flex flex-col lg:flex-row px-5 lg:px-15 py-5 pt-20 gap-5 lg:gap-0'>
