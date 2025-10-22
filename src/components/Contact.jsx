@@ -1,6 +1,12 @@
+import { useForm, ValidationError } from '@formspree/react'
 import React from 'react'
 
 const Contact = () => {
+    const [state, handleSubmit] = useForm("mdkwrljw");
+
+    if (state.succeeded) {
+        return <p>Thanks for joining!</p>;
+    }
     return (
         <section id='contact' className='flex flex-col lg:flex-row px-5 lg:px-15 py-5 pt-20 gap-5 lg:gap-0'>
             <div className='flex flex-col gap-5 lg:gap-6 lg:basis-1/2'>
@@ -47,26 +53,46 @@ const Contact = () => {
             </div>
 
             <div className='flex flex-col gap-5 lg:basis-1/2'>
-                <form className='flex flex-col gap-4'>
+                <form action={"https://formspree.io/f/mdkwrljw"} method='POST' onSubmit={handleSubmit} className='flex flex-col gap-4'>
                     <div className='flex flex-col gap-2'>
-                        <label className='text-lg'>Name</label>
-                        <input type='text' className='focus:outline-0 text-[var(--color-secondary)] bg-[var(--color-buttonbg)] px-4 w-full py-2 rounded-lg' required />
+                        <label htmlFor='name' className='text-lg'>Name</label>
+                        <input id='name' name='name' type='text' className='focus:outline-0 text-[var(--color-secondary)] bg-[var(--color-buttonbg)] px-4 w-full py-2 rounded-lg' required />
+                        <ValidationError
+                            prefix="Name"
+                            field="name"
+                            errors={state.errors}
+                        />
                     </div>
                     <div className='flex flex-col gap-2'>
-                        <label className='text-lg'>Email</label>
-                        <input type='email' className='focus:outline-0 bg-[var(--color-buttonbg)] px-4 w-full py-2 rounded-lg' required />
+                        <label htmlFor='email' className='text-lg'>Email</label>
+                        <input id='email' name='email' type='email' className='focus:outline-0 bg-[var(--color-buttonbg)] px-4 w-full py-2 rounded-lg' required />
+                        <ValidationError
+                            prefix="Email"
+                            field="email"
+                            errors={state.errors}
+                        />
                     </div>
                     <div className='flex flex-col gap-2'>
                         <label className='text-lg'>Subject</label>
-                        <input type='text' className='focus:outline-0 bg-[var(--color-buttonbg)] px-4 w-full py-2 rounded-lg' required />
+                        <input id='subject' name='subject' type='text' className='focus:outline-0 bg-[var(--color-buttonbg)] px-4 w-full py-2 rounded-lg' required />
+                        <ValidationError
+                            prefix="Subject"
+                            field="subject"
+                            errors={state.errors}
+                        />
 
                     </div>
                     <div className='flex flex-col gap-2'>
                         <label className='text-lg'>Message</label>
-                        <textarea className='focus:outline-0 bg-[var(--color-buttonbg)] px-4 w-full h-50 py-2 rounded-lg' required />
+                        <textarea id='message' name='message' className='focus:outline-0 bg-[var(--color-buttonbg)] px-4 w-full h-50 py-2 rounded-lg' required />
+                        <ValidationError
+                            prefix="Message"
+                            field="message"
+                            errors={state.errors}
+                        />
 
                     </div>
-                    <button type='submit' className='bg-[var(--color-extra)] w-1/3 py-3 rounded-full text-[var(--color-primary)] font-semibold text-xl'>SUBMIT</button>
+                    <button type='submit' disabled={state.submitting} className='bg-[var(--color-extra)] w-1/3 py-3 rounded-full text-[var(--color-primary)] font-semibold text-xl'>SUBMIT</button>
                 </form>
 
             </div>
