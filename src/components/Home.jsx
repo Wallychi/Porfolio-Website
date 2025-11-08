@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <section
       id="home"
-      className="flex flex-col lg:flex-row lg:items-center px-5 lg:px-15 pt-25 gap-5  py-10 border-b-1 border-[var(--color-secondary)]"
+      className="flex flex-col lg:flex-row lg:items-center px-5 lg:px-15 pt-25 gap-5 py-10 border-b-1 border-[var(--color-secondary)]"
     >
       <div className="flex flex-col gap-5 lg:w-3/4">
         <h1 className="text-5xl lg:w-full font-bold w-1/2">HI, I AM  WALIYULLAHI.</h1>
@@ -37,8 +37,8 @@ const Home = () => {
           </div>
 
           <div className="bg-[var(--color-buttonbg)] p-2 rounded-full lg:hidden">
-            <a href="mailto:szetrov@gmail.com">
-              <img className="w-7" src="/Icons/mail.png" alt="LinkedIn-icon" />
+            <a href="mailto:adejareWaliyullahi25@gmail.com">
+              <img className="w-7" src="/Icons/mail.png" alt="Email-icon" />
             </a>
           </div>
 
@@ -87,9 +87,9 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="flex justify-center lg:w-1/2">
+      <div className="flex justify-center lg:w-1/3">
         <img
-          src="/Images/Portfolio_picture.jpg"
+          src="/Images/wallypic_7.jpg"
           alt="Picture of the website creator"
           className="rounded-3xl"
         />

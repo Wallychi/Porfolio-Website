@@ -22,7 +22,7 @@ const Projects = () => {
 
                 <div className='flex flex-col lg:flex-row gap-3 pb-3 lg:p-3 rounded-xl border-1 border-[var(--color-secondary)]'>
                     <div className='lg:basis-1/2'>
-                        <img src='/Images/portfolio_mainpage.JPG' alt='Portfolio Landing Page' className='rounded-t-xl lg:rounded-xl' />
+                        <img src='/Images/Portfolio_mainpage.JPG' alt='Portfolio Landing Page' className='rounded-t-xl lg:rounded-xl' />
                     </div>
                     <div className='flex flex-col justify-end gap-3 px-3 lg:basis-1/2'>
                         <h2 className='text-2xl lg:text-4xl font-semibold'>Portfolio Website</h2>

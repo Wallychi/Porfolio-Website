@@ -8,7 +8,7 @@ import Projects from './components/Projects'
 
 const App = () => {
   return (
-    <section className='relative bg-[var(--color-primary)] text-[var(--color-secondary)] font-roboto'>
+    <section className='relative bg-[var(--color-primary)] text-[var(--color-secondary)] font-Stacksans'>
       <div className='fixed w-full z-50 bg-[var(--color-primary)] border-b-1 border-[var(--color-secondary)]'>
         <Navbar />
       </div>
