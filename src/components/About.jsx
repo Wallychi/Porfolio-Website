@@ -1,4 +1,5 @@
 import React from 'react'
+import { skillSets } from '../../public/Constants/data'
 
 const About = () => {
     return (
@@ -28,14 +29,9 @@ const About = () => {
                 <div className='flex flex-col gap-3 lg:gap-5 lg:basis-1/2'>
                     <p className='text-[var(--color-tertiary)]'>I am always looking to add more skills, but these are the few skills i am able to apply.</p>
                     <div className='grid grid-cols-3 gap-4 lg:gap-5'>
-                        <div className='text-center border-1 border-[var(--color-secondary)] p-1 rounded-full text-sm font-semibold'>TAILWIND CSS</div>
-                        <div className='text-center border-1 border-[var(--color-secondary)] p-1 rounded-full text-sm font-semibold'>JAVASCRIPT</div>
-                        <div className='text-center border-1 border-[var(--color-secondary)] p-1 rounded-full text-sm font-semibold'>TYPESCRIPT</div>
-                        <div className='text-center border-1 border-[var(--color-secondary)] p-1 rounded-full text-sm font-semibold'>PYTHON</div>
-                        <div className='text-center border-1 border-[var(--color-secondary)] p-1 rounded-full text-sm font-semibold'>REACT</div>
-                        <div className='text-center border-1 border-[var(--color-secondary)] p-1 rounded-full text-sm font-semibold'>NEXTJS</div>
-                        <div className='text-center border-1 border-[var(--color-secondary)] p-1 rounded-full text-sm font-semibold'>GITHUB</div>
-                        <div className='text-center border-1 border-[var(--color-secondary)] p-1 rounded-full text-sm font-semibold'>VS CODE</div>
+                        {skillSets.map((item)=>(
+                            <div className='text-center border-1 border-[var(--color-secondary)] p-1 rounded-full text-sm font-semibold'>{item.text}</div>
+                        ))}
                     </div>
                 </div>
             </div>

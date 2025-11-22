@@ -26,7 +26,7 @@ const Home = () => {
               />
             </div>
             {contact
-              ? <div className="absolute  bg-[var(--color-buttonbg)] top-135 left-60 rounded-xl">
+              ? <div className="absolute  bg-[var(--color-buttonbg)] top-110 left-60 rounded-xl">
                 <div className="flex flex-col text-[var(--color-secondary)]">
                   <p onClick={()=>{setContact(false)}} className="px-1 cursor-pointer bg-[var(--color-secondary)] text-[var(--color-primary)] rounded-full text-sm absolute -top-1 -right-1 font-bold">X</p>
                   <a href="mailto:szetrov@gmail.com" className="p-2 border-b-2 border-[var(--color-extra)] text-center">Email</a>
@@ -89,7 +89,7 @@ const Home = () => {
 
       <div className="flex justify-center lg:w-1/3">
         <img
-          src="/Images/wallypic_7.jpg"
+          src="/Images/devs_pic1.jpg"
           alt="Picture of the website creator"
           className="rounded-3xl"
         />
