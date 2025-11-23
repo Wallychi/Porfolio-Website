@@ -11,7 +11,7 @@ export const projectData = [
     title:"Portfolio Website",
     description:"This is the website that is currently on. React, TailwindCSS were used to build the UI. Responsive for all devices.",
     github:"https://github.com/Wallychi/Porfolio-Website",
-    // link:"https://techty-seven.vercel.app/"
+    link:"https://adejarewaliyullahi.vercel.app/"
   }
 ]
 

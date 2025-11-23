@@ -5,8 +5,8 @@ const Navbar = () => {
   const [toogle, setToogle] = useState(true)
   const [menuState, setMenuState] = useState(false)
   return (
-    <section className='flex w-full px-5 lg:px-15 py-3 items-center justify-between text-[var(--color-tertiary)]'>
-      <div className='text-xl lg:text-2xl font-bold'>ADEJARE WALIYULLAHI</div>
+    <section className='flex w-full px-5 lg:px-15 py-3 items-center justify-between text-tertiary'>
+      <div className='text-xl lg:text-2xl text-extra font-bold'>ADEJARE WALIYULLAHI</div>
       <div className='flex items-center gap-2'>
         <Menu onClick={() => { setMenuState(!menuState) }} className='flex lg:hidden' size={30} strokeWidth={2.5} />
         {menuState ? <div onClick={() => { setMenuState(!menuState) }} className='flex italic absolute top-15 right-0 flex-col w-full text-2xl gap-3 h-screen items-center justify-center bg-[var(--color-primary)] text-[var(--color-secondary)]'>
