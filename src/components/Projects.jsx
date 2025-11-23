@@ -16,8 +16,8 @@ const Projects = () => {
                             <h2 className='text-2xl lg:text-4xl font-semibold'>{item.title}</h2>
                             <p className='text-[var(--color-tertiary)]'>{item.description}</p>
                             <div className='flex items-center gap-5 text-[var(--color-extra)] font-semibold'>
-                                <a href={item.github} target='_blank' className='p-1 border-b-1 border-[var(--color-extra)] hover:text-[var(--color-primary)] hover:bg-[var(--color-extra)] hover:rounded-xl'>View Site</a>
-                                <a href={item.link} target='_blank' className='p-1 border-b-1 border-[var(--color-extra)] hover:text-[var(--color-primary)] hover:bg-[var(--color-extra)] hover:rounded-xl'>View Code</a>
+                                <a href={item.github} target='_blank' className='p-1 border-b-1 border-[var(--color-extra)] hover:text-[var(--color-primary)] hover:bg-[var(--color-extra)] hover:rounded-xl'>View Code</a>
+                                <a href={item.link} target='_blank' className='p-1 border-b-1 border-[var(--color-extra)] hover:text-[var(--color-primary)] hover:bg-[var(--color-extra)] hover:rounded-xl'>View Site</a>
                             </div>
                         </div>
                     </div>
