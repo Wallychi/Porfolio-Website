@@ -12,6 +12,13 @@ export const projectData = [
     description:"This is the website that is currently on. React, TailwindCSS were used to build the UI. Responsive for all devices.",
     github:"https://github.com/Wallychi/Porfolio-Website",
     link:"https://adejarewaliyullahi.vercel.app/"
+  },
+  {
+    img:"/Images/jiji_clone.JPG",
+    title:"Jiji Clone",
+    description:"A Jiji clone website built with React, fully responsive across all devices, showcasing a clean and intuitive marketplace interface developed through collaboration with another front-end developer, featuring reusable components, smooth navigation, modern UI design, and layouts that mirror real-world online classified platforms.",
+    github:"https://github.com/Donrealex/Jiji-clone",
+    link:"https://jiji-clone-4ebi.vercel.app/"
   }
 ]
 
