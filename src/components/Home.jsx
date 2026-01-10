@@ -89,7 +89,7 @@ const Home = () => {
 
       <div className="flex justify-center lg:w-1/3">
         <img
-          src="https://i.postimg.cc/BnwqWpyx/devs-pic1.jpg"//"/Images/devs_pic1.jpg"
+          src="https://i.postimg.cc/BnwqWpyx/devs-pic1.jpg"  //"/Images/devs_pic1.jpg"
           alt="Picture of the website creator"
           className="rounded-3xl"
         />
